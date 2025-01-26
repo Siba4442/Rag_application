@@ -4,13 +4,8 @@ from typing import List
 from chromadb import PersistentClient
 from chromadb.utils.embedding_functions import create_langchain_embedding
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import CharacterTextSplitter, RecursiveCharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
-from langchain_core.vectorstores.base import VectorStoreRetriever
-from langchain_core.messages import SystemMessage
-
-
-
 
 class DocLoader:
     def __init__ (self,
