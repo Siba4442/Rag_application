@@ -8,3 +8,4 @@ pypdf
 langgraph
 streamlit
 python-dotenv
+streamlit-chat
