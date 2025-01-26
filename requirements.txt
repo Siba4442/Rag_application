@@ -6,3 +6,5 @@ langchain-groq
 langchain_chroma
 pypdf
 langgraph
+streamlit
+python-dotenv
